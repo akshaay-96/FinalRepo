@@ -11,4 +11,10 @@ public class HomeController {
 	{
 		return "Welcome to dustche bank";
 	}
+	
+	@GetMapping("/new-api")
+	public String test()
+	{
+		return "To check how to add new lines..";
+	}
 }
